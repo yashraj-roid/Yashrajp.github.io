@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yashraj Prakash Phadtare Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:linear-gradient(to right,#111827,#1e293b);
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:60px;
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    .hero p{
+      font-size:22px;
+      color:#cbd5e1;
+      margin-bottom:25px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 28px;
+      background:#38bdf8;
+      color:#000;
+      text-decoration:none;
+      border-radius:30px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:white;
+    }
+
+    section{
+      padding:80px 10%;
+    }
+
+    h2{
+      text-align:center;
+      margin-bottom:40px;
+      font-size:40px;
+      color:#38bdf8;
+    }
+
+    .about{
+      text-align:center;
+      max-width:800px;
+      margin:auto;
+      color:#d1d5db;
+      font-size:18px;
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:20px;
+      margin-top:40px;
+    }
+
+    .skill-box{
+      background:#1e293b;
+      padding:25px;
+      border-radius:12px;
+      text-align:center;
+      transition:0.3s;
+    }
+
+    .skill-box:hover{
+      transform:translateY(-5px);
+      background:#334155;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .project-card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:12px;
+      transition:0.3s;
+    }
+
+    .project-card:hover{
+      transform:scale(1.03);
+    }
+
+    .project-card h3{
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    .contact{
+      text-align:center;
+    }
+
+    .contact p{
+      margin:10px 0;
+      font-size:18px;
+      color:#d1d5db;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#020617;
+      color:#94a3b8;
+    }
+
+    @media(max-width:768px){
+      .hero h1{
+        font-size:38px;
+      }
+
+      .hero p{
+        font-size:18px;
+      }
+
+      h2{
+        font-size:30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header>
+    <div class="hero">
+      <h1>YASHRAJ PRAKASH PHADTARE</h1>
+      <p>Web Developer | Designer | Programmer</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <p>
+        Hello! I'm Yashraj Prakash Phadtare, a passionate web developer
+        who loves creating modern and responsive websites. I enjoy learning
+        new technologies and building creative digital experiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <div class="skill-box">
+        <h3>HTML</h3>
+      </div>
+
+      <div class="skill-box">
+        <h3>CSS</h3>
+      </div>
+
+      <div class="skill-box">
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="skill-box">
+        <h3>Python</h3>
+      </div>
+
+      <div class="skill-box">
+        <h3>React</h3>
+      </div>
+
+      <div class="skill-box">
+        <h3>UI/UX Design</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          A responsive personal portfolio website built using HTML, CSS,
+          and JavaScript.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <p>
+          A weather application that shows real-time weather information
+          using API integration.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>E-Commerce UI</h3>
+        <p>
+          A modern e-commerce website interface with attractive design
+          and responsive layout.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <div class="contact">
+      <p><strong>Phone:</strong> 9850611698</p>
+      <p><strong>Email:</strong> yashrajphadtare040@gmail.com</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Yashraj Prakash Phadtare. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
